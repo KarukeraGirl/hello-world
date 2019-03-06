@@ -1,7 +1,7 @@
 function checkCashRegister(price, cash, cid) {
   var change;
   // Here is your change, ma'am.
- var totalCid=cid.reduce((a,b)=>a+b);
+ var totalCid=cid.reduce((label,amount)=>label+amount));
   return change;
 }
 
